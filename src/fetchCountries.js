@@ -13,10 +13,10 @@ export const fetchCountries = inputValue => {
       }
       if (data.length < 10 && data.length > 2) {
         console.log('список объектов');
-        }
-        if (data.length === 1) {
-            console.log('1 объект');
-        }
+      }
+      if (data.length === 1) {
+        console.log('1 объект');
+      }
       console.log(data);
     });
 };
