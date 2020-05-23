@@ -11,12 +11,15 @@ export const fetchCountries = inputValue => {
       if (data.length > 10) {
         console.log('много совпадений');
       }
-      if (data.length < 10 && data.length > 2) {
+      if (data.length <= 10 && data.length >= 2) {
         console.log('список объектов');
       }
       if (data.length === 1) {
         console.log('1 объект');
       }
       console.log(data);
-    });
+    })
+    .catch(error => {
+      console.log('ничего нет');
+  })
 };

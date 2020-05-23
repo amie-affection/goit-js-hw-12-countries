@@ -13,11 +13,8 @@ input.addEventListener(
   }, 500),
 );
 
-const markup = (countries) => {
-  const countryList = document.querySelector('.result');
-  console.log(countries);
-  const value = countries.reduce((acc, country) => {
-    return acc += `<li class='list_item'>${country}</li>`
-  }, '');
-  console.log(value);
-};
+const countryList = document.querySelector('.country_list');
+
+const markup = function template(params) {
+
+}
