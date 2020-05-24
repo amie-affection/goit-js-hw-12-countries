@@ -13,8 +13,3 @@ input.addEventListener(
   }, 500),
 );
 
-const countryList = document.querySelector('.country_list');
-
-const markup = function template(params) {
-
-}
