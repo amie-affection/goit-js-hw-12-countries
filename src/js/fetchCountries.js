@@ -1,4 +1,4 @@
-import card from './card.hbs';
+// import card from './card.hbs';
 
 const basisUrl = 'https://restcountries.eu/rest/v2/name/';
 const countryList = document.querySelector('.country_list');
