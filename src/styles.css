@@ -21,17 +21,23 @@ body {
   text-align: center;
 }
 
+.description {
+  display: flex;
+  justify-content: space-around;
+}
+
 .country_capital,
 .country_population,
-.country_languages {
+.spanLanguages {
   font-size: 30px;
 }
 
 .country_capital span,
 .country_population span,
-.country_languages span {
+.spanLanguages {
   font-weight: bold;
 }
 
 .language-list__item {
+  font-size: 24px;
 }
