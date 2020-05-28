@@ -11,13 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luxplanjay/webpack-starter-kit.git"
+    "url": "git+https://github.com/amie-affection"
   },
   "keywords": [],
   "author": "Alexandr Repeta",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/luxplanjay/webpack-starter-kit/issues"
+    "url": "https://github.com/amie-affection"
   },
   "homepage": "https://amie-affection.github.io/goit-js-hw-12-countries",
   "devDependencies": {
